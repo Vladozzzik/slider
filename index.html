@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Slider</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="slider">
+        <button class="prev">&#10094;</button>
+        <div class="sliderContent">
+          <h3>
+            Пари́ж (фр. Paris, МФА: [pa.ˈʁi] ( прослухати)) — столиця Франції,
+            адміністративний центр регіону Іль-де-Франс. Окремий департамент
+            Франції. Розташований на річці Сена. Населення — 2 175 601 особа (на
+            01.01.2021)[10], міська агломерація — 10 млн, у 2015 році населення
+            міста становило 2 206 488 осіб, агломерації — 12 405 426.
+            Штаб-квартири низки міжнародних організацій: ЮНЕСКО, Організація
+            економічного співробітництва та розвитку, Міжнародна торгівельна
+            палата та інші.
+          </h3>
+        </div>
+        <div class="sliderImg">
+          <img
+            src="https://topgid.net/uploads/posts/2019-09/1568213750_parizh-francija.jpg"
+            alt=""
+          />
+        </div>
+        <button class="next">&#10095;</button>
+      </div>
+      <div class="footer">
+        <span class="slider-dots_item" onclick="currentSlide(0)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
